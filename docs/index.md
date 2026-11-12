@@ -52,7 +52,7 @@ title: "Career Research: AI Engineer vs. Forward Deployed Engineer"
 
 | Finding | Proposed portfolio decision | How I'll check it |
 |---|---|---|
-| S2 wants visible AI/ML project work, and S1 builds "LLM workflows" for users. | Add one small **AI-powered feature** to my portfolio site (for example, a helper that answers questions about my projects), with a README section explaining it. | *Planned, not yet observed:* the feature runs on the deployed site, and a reviewer can follow the README to see what it does and where its limits are. |
+| S2 wants visible AI/ML project work, and S1 builds "LLM workflows" for users. | Add one small **AI-powered feature** to my portfolio site (for example, a helper that answers questions about my projects), with a README section explaining it. | *Planned, not yet observed:* Run 10 fixed questions on the deployed helper. For 8 questions covered by the project docs, record the expected answer and source page before testing. Count an answer as correct only if it matches the docs and cites a supporting page. For 2 questions the docs cannot answer, check that the helper says it cannot find the answer. Aim for at least 7 of 8 correct answers and both appropriate fallbacks. Publish the questions, sources, results, and limitations in the README so a reviewer can repeat the test. |
 | Both roles center on solving a real user's problem. | Write each portfolio project page as **problem → user → what I built → evidence it works**. | *Planned:* a classmate reads one page and can state the user's problem in one sentence. |
 | S1 accepts JavaScript, but JS logic is a gap for me. | Practice JS first and build the AI feature in JavaScript. | *Planned:* one logged JS exercise per day for a week, linked in the worklog. |
 
