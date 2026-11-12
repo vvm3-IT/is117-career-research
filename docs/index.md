@@ -87,4 +87,6 @@ I used Claude (Anthropic) to search for postings and draft this page. I opened t
 
 ## Reviewer check (for peer review)
 
-Open **S1**, find "Must be graduating in…", and confirm the graduation window in the comparison table. Then trace that finding into the "From finding to design decision" table and say whether the proposed check would actually show the decision worked. File an issue if anything doesn't match.
+1. Open **S1**, the Palantir posting, and find where it describes building LLM workflows for users.
+2. In the [From finding to design decision](#from-finding-to-design-decision) table, trace that evidence to the proposed AI-powered helper that answers questions about portfolio projects.
+3. Review the planned 10-question evaluation. Check whether comparing 8 answers with the project docs and testing 2 questions the docs cannot answer would show that the helper is accurate and handles missing information. File an issue with any gap you find and a concrete suggestion.
