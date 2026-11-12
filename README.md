@@ -2,9 +2,14 @@
 
 Research comparing two early-career roles, **AI Engineer** and **Forward Deployed Engineer**, and how the findings shape my portfolio plan.
 
-- **Research page:** [docs/index.md](docs/index.md). It is published with GitHub Pages from the `/docs` folder.
+- **Research source:** [docs/index.md](docs/index.md).
 - **Sources:** original employer job descriptions, linked and dated on the research page.
 - **Privacy:** my full reflection, role cards and personal eligibility details are submitted privately in Canvas and are **not** in this repository.
+
+## GitHub Pages
+
+- [Career research and role comparison](https://vvm3-it.github.io/is117-career-research/)
+- [AI internship research and skills](https://vvm3-it.github.io/is117-career-research/#ai-internship-research)
 
 ## Peer review
 
