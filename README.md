@@ -1,10 +1,19 @@
-# IS117-007 Portfolio Research: Career Exploration
+# IS117-007 Portfolio: Research and Plan
 
 Research comparing two early-career roles, **AI Engineer** and **Forward Deployed Engineer**, and how the findings shape my portfolio plan.
 
 - **Research source:** [docs/index.md](docs/index.md).
 - **Sources:** original employer job descriptions, linked and dated on the research page.
 - **Privacy:** my full reflection, role cards and personal eligibility details are submitted privately in Canvas and are **not** in this repository.
+
+## Portfolio Plan
+
+Continue the individual portfolio in this same repository.
+
+- [Current Plan, stories, destinations, and Canvas submission draft](docs/index.md#2-plan--portfolio)
+- [Existing published documentation](https://is117-career-research.smoothpopcorn.chatgpt.site/)
+- The GitHub record is current after the Nov 17 update. The separately hosted documentation has not been verified as synchronized.
+- Review issues [#4](https://github.com/vvm3-IT/is117-career-research/issues/4) and [#5](https://github.com/vvm3-IT/is117-career-research/issues/5) contain received feedback; their missing response/retry evidence is documented in the Plan.
 
 ## GitHub Pages
 
