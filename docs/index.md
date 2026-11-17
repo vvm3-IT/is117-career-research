@@ -90,3 +90,49 @@ I used Claude (Anthropic) to search for postings and draft this page. I opened t
 1. Open **S1**, the Palantir posting, and find where it describes building LLM workflows for users.
 2. In the [From finding to design decision](#from-finding-to-design-decision) table, trace that evidence to the proposed AI-powered helper that answers questions about portfolio projects.
 3. Review the planned 10-question evaluation. Check whether comparing 8 answers with the project docs and testing 2 questions the docs cannot answer would show that the helper is accurate and handles missing information. File an issue with any gap you find and a concrete suggestion.
+
+## 2. Plan — Portfolio
+
+**Checkpoint:** Introduce Nov 10, work and review Nov 12, submit Nov 17 at 8:30 a.m. Eastern (2026).
+
+**Reader and goal.** My first reader is an internship recruiter looking for evidence that an NJIT Enterprise AI student can build working software and explain their contribution. A technical reviewer should be able to follow that evidence into the code, documentation, or a repeatable demo. The research above points to documenting user problems, showing concrete project work, and testing the proposed JavaScript AI helper. The Mastercard evidence comes from the secondary copy identified above.
+
+| Approach | Page and destination choices | Tradeoff |
+|---|---|---|
+| A — Project-first | Home introduces me, then shows three project cards. Each opens a case study with its repository link. Header links lead to GitHub, LinkedIn, and a readable résumé page with a PDF download. | Recruiters see work immediately. Consistent cards make three different projects easy to compare. |
+| B — Résumé-first | Home leads with a short résumé summary and links to the full résumé, GitHub, and LinkedIn. A Projects page lists all three case studies and their repository links. | Readers get career context immediately. Project evidence sits one click deeper. |
+
+**Decision:** Plan A. Lead with evidence and keep résumé access in the header. Use the same content and claims in both layouts so a peer can compare navigation. Ask a peer to find the résumé and a project's code in each layout without hints and record the first clicks and any wrong turns.
+
+**Brand and visual choices.** Use my name, my Enterprise AI focus, and a calm, direct voice across the site. Proposed visual direction: a restrained palette, readable headings, consistent spacing, and a single accent for links and focus. Carry over the Quiet Reps brand work as an example of consistent hierarchy and evidence-led copy. Its product identity belongs inside its case study. Use actual project screenshots with captions, label demo behavior and work in progress, credit teammates, and attach proof to claims. Use descriptive actions such as “View T-shirt repository” and “Read résumé.”
+
+### Essential features and observable checks
+
+| ID | User story | Essential feature | Observable check |
+|---|---|---|---|
+| S1 | As an internship recruiter, I want to understand Varnit's focus and see his work quickly so I can decide what to review. | Home heading, Enterprise AI introduction, and three project cards. | At a 390 px viewport, a peer opens Home, identifies my focus, and opens a project without hints or horizontal scrolling. |
+| S2 | As a technical reviewer, I want to inspect all three repositories and see what Varnit contributed so I can verify his work. | Three case studies with problem, user, contribution, evidence, and labeled repository links. The team case study credits all members. | Open all three links while signed out, check each lands on the intended repo, and ask the reviewer to explain one user problem and one contribution after reading its case study. |
+| S3 | As a recruiter, I want a readable résumé and access to Varnit's professional profiles so I can review his background. | Header links to GitHub, LinkedIn, and the HTML résumé, with a text-selectable PDF on the résumé page. | Tab to each link and open it. Confirm both profiles belong to me. At 390 px, read the résumé without horizontal scrolling and download the PDF, open it, and select text. |
+| S4 | As a technical reviewer, I want to see how the project helper handles questions so I can judge whether its answers are grounded. | Planned JavaScript interface, linked source pages, plain fallback, and evaluation record. | Prewrite expected answers and source pages for eight covered questions and add two unsupported questions. Pass at seven of eight correct with supporting citations and two of two explicit fallbacks. Publish questions, results, and limitations. |
+
+### Destinations
+
+| Destination | Target or next step |
+|---|---|
+| Personal GitHub | [vvm3-IT](https://github.com/vvm3-IT) |
+| LinkedIn | Confirm my exact public profile URL before adding it. |
+| Individual T-shirt repository | [plain-white-tee](https://github.com/vvm3-IT/plain-white-tee) |
+| Group business repository | Add the confirmed shared repository URL and every member's name and GitHub username. |
+| Individual portfolio repository | Confirm my portfolio repository URL. The career research repository holds this documentation record. |
+| Résumé | Plan a site-local résumé page and downloadable PDF. Add verified content and check both published destinations. |
+| Published documentation | [Career research and portfolio planning record](https://vvm3-it.github.io/is117-career-research/) |
+| Deployed portfolio | Add the live URL when available and repeat the checks on that URL. |
+
+### Feedback, changes, and open items
+
+- [Research peer issue #4](https://github.com/vvm3-IT/is117-career-research/issues/4) asked for measurable helper accuracy. The Plan carries that decision into S4 by specifying expected sources, a threshold, and unsupported questions.
+- [Research peer issue #5](https://github.com/vvm3-IT/is117-career-research/issues/5) asked for a direct connection between research and the proposed feature. The Plan connects the research on LLM workflows to the helper and its evaluation.
+- **Plan-specific review pending.** Review request draft: “Please pick S1–S4, explain the reader and goal in your own words, walk through the observable check, and file one question or change as a GitHub issue.” Record the actual request link after sending. If review is unavailable, contact the instructor to arrange a reviewer.
+- For each incoming Plan issue, review it with AI, then record my decision and reason in the issue. For an accepted change, reference the issue in the documentation commit or PR, link it in the issue, describe my verification, and ask the reviewer to retry before closing. For deferred or investigated items, record a next step. Explain declined suggestions in the issue.
+- **Verification status:** The research-to-Plan mapping and GitHub account and T-shirt repo destinations were checked against the existing research and GitHub records. Site walkthroughs, peer retest, and the helper evaluation are pending.
+- **AI assistance:** ChatGPT drafted the comparison, stories and checks from the existing career research and checked the listed research issue references against GitHub. I need to confirm the proposed visual direction, missing destinations, team credits, and the checks before submitting.
