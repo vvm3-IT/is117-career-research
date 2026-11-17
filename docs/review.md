@@ -4,7 +4,7 @@ This page helps a reviewer inspect the existing research and portfolio Plan. It 
 
 ## Review one story
 
-1. Open the [Portfolio Plan](./index.md#_2-plan-portfolio) and choose S1–S4.
+1. Open the [Portfolio Plan](./index.md#_2-plan-%E2%80%94-portfolio) and choose S1–S4.
 2. Explain the intended reader and goal in your own words.
 3. Describe how you would perform the story's observable check.
 4. File one question or suggested change in the [same repository's issues](https://github.com/vvm3-IT/is117-career-research/issues).
@@ -27,7 +27,7 @@ For research, use the [source-to-decision reviewer check](./index.md#reviewer-ch
 - [Issue #4: helper evaluation](https://github.com/vvm3-IT/is117-career-research/issues/4)
 - [Issue #5: source-to-decision connection](https://github.com/vvm3-IT/is117-career-research/issues/5)
 
-See the [Nov 17 audit](./index.md#review-1-audit-and-next-steps-november-17-2026) for the observed evidence gaps. No reviewer retry is asserted here.
+See the [Nov 17 audit](./index.md#review-1-audit-and-next-steps-%E2%80%94-november-17-2026) for the observed evidence gaps. No reviewer retry is asserted here.
 
 ## Keep plans separate from results
 

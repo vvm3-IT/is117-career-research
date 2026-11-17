@@ -11,8 +11,8 @@ Research comparing two early-career roles, **AI Engineer** and **Forward Deploye
 Continue the individual portfolio in this same repository.
 
 - [Current Plan, stories, destinations, and Canvas submission draft](docs/index.md#2-plan--portfolio)
-- [Existing published documentation](https://is117-career-research.smoothpopcorn.chatgpt.site/)
-- The GitHub record is current after the Nov 17 update. The separately hosted documentation has not been verified as synchronized.
+- [Published VitePress documentation](https://vvm3-it.github.io/is117-career-research/)
+- GitHub Pages publishes the current record with VitePress. The previous chatgpt.site copy is separate and is not synchronized.
 - Review issues [#4](https://github.com/vvm3-IT/is117-career-research/issues/4) and [#5](https://github.com/vvm3-IT/is117-career-research/issues/5) contain received feedback; their missing response/retry evidence is documented in the Plan.
 
 ## GitHub Pages

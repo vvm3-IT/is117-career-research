@@ -6,7 +6,7 @@ title: "Career Research & Portfolio Plan"
 
 **Varnit Monga · IS117 · Evolving documentation record**
 
-[Research](#research-question) · [Portfolio Plan](#_2-plan-portfolio) · [Review & checks](./review.md)
+[Research](#research-question) · [Portfolio Plan](#_2-plan-%E2%80%94-portfolio) · [Review & checks](./review.md)
 
 ::: info Record status
 The research and Plan share this existing repository. Portfolio implementation and peer retries remain open where indicated below. Résumé content remains private; only its planned destinations are recorded.
@@ -146,7 +146,7 @@ Start with HTML/CSS/JavaScript for the core pages. Keep the AI helper as a separ
 | Group business repository | [campus-marketplace](https://github.com/vvm3-IT/campus-marketplace). Group members: Varnit Monga (@vvm3-IT), Chase Carty (@chaseac-cpu), and Jovan Fernandez (@Jovandon9). Names confirmed by Varnit on Nov 17, 2026. |
 | Individual portfolio repository | Continue the individual portfolio work in [is117-career-research](https://github.com/vvm3-IT/is117-career-research), as directed on Nov 17. This same repository retains the research and evolving Plan record. |
 | Résumé | Résumé received Nov 17, 2026. Planned destinations: `/resume/` for readable HTML and `/assets/varnit-monga-resume.pdf` for a downloadable PDF. These paths are planned, not deployed; publication and the S3 checks remain pending. |
-| Published documentation | [Existing published documentation](https://is117-career-research.smoothpopcorn.chatgpt.site/) · [current source record](https://github.com/vvm3-IT/is117-career-research/blob/main/docs/index.md). Source and hosted copies must be checked separately; this commit does not prove that the hosted copy has updated. |
+| Published documentation | [VitePress documentation](https://vvm3-it.github.io/is117-career-research/) · [current source record](https://github.com/vvm3-IT/is117-career-research/blob/main/docs/index.md). Published from this repository using the VitePress GitHub Actions workflow. The earlier chatgpt.site copy is retained separately and is not synchronized. |
 | Deployed portfolio | Add the live URL when available and repeat the checks on that URL. |
 
 ### Feedback, changes, and open items
@@ -176,11 +176,11 @@ These are received peer suggestions, not merely review requests. Their closed st
 
 - Repository: https://github.com/vvm3-IT/is117-career-research
 - Current evolving record: https://github.com/vvm3-IT/is117-career-research/blob/main/docs/index.md#2-plan--portfolio
-- Existing published documentation: https://is117-career-research.smoothpopcorn.chatgpt.site/
+- Published VitePress documentation: https://vvm3-it.github.io/is117-career-research/
 - Deployed portfolio: not yet recorded.
 - Received feedback: [#4](https://github.com/vvm3-IT/is117-career-research/issues/4) and [#5](https://github.com/vvm3-IT/is117-career-research/issues/5); response and retry evidence remain incomplete.
 - Change note: continued the same repository; made the persona assumption explicit; compared technologies; clarified page destinations, scope, visual tokens, and review evidence gaps.
-- Open-item note: complete the missing professional destinations and reviewer evidence listed above. Verify that the published documentation matches the source before submitting its URL.
+- Open-item note: complete the missing professional destinations and reviewer evidence listed above. Use the current VitePress documentation URL above when submitting.
 
 **AI assistance for this update:** ChatGPT inspected the current repository and both issues, then revised the existing Plan. The persona, navigation, technology choice, and visual tokens are proposals for the author's review. No interview, browser test, reviewer retry, or helper result was fabricated.
 
@@ -189,3 +189,12 @@ These are received peer suggestions, not merely review requests. Their closed st
 
 
 **Nov 17 résumé note:** Résumé received. Plan a readable HTML page at `/resume/` and a PDF download at `/assets/varnit-monga-resume.pdf`. No résumé contents or contact details are included in this note. These destinations still require implementation and verification.
+
+
+### Documentation publication — November 17, 2026
+
+Migrated the existing record to VitePress 1.6.4 in this same repository. Added sidebar navigation, local search, a page outline, light/dark themes, and a [review routine](./review.md). The portfolio implementation remains a separate planned task.
+
+**Observed verification:** [Build and deployment run](https://github.com/vvm3-IT/is117-career-research/actions/runs/44184845945) succeeded for commit `44272a90d776128ed488f98c9c10fdd8b6519846`. The live site was opened in a browser and displayed the research, Plan, destinations, and review navigation. GitHub Pages settings were changed from branch publication to GitHub Actions and displayed “GitHub Pages source saved.” Browser inspection also found two punctuation-sensitive section anchors; this follow-up corrects those navigation links to match the generated headings.
+
+These are documentation publishing checks. They do not establish a passed portfolio story, mobile test, reviewer retry, or AI evaluation. ChatGPT prepared the VitePress configuration and workflow and inspected the publishing evidence.

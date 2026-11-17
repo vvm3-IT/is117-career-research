@@ -10,7 +10,7 @@ export default defineConfig({
     siteTitle: 'Portfolio record',
     nav: [
       { text: 'Research', link: '/#research-question' },
-      { text: 'Portfolio Plan', link: '/#_2-plan-portfolio' },
+      { text: 'Portfolio Plan', link: '/#_2-plan-%E2%80%94-portfolio' },
       { text: 'Review & checks', link: '/review' }
     ],
     sidebar: [
@@ -23,7 +23,7 @@ export default defineConfig({
         { text: 'Research reviewer check', link: '/#reviewer-check-for-peer-review' }
       ]},
       { text: 'Portfolio Plan', items: [
-        { text: 'Reader & approaches', link: '/#_2-plan-portfolio' },
+        { text: 'Reader & approaches', link: '/#_2-plan-%E2%80%94-portfolio' },
         { text: 'Technology & scope', link: '/#technology-and-scope-decision' },
         { text: 'Stories & observable checks', link: '/#essential-features-and-observable-checks' },
         { text: 'Professional destinations', link: '/#destinations' },
