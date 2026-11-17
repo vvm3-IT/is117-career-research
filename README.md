@@ -37,3 +37,15 @@ For each issue I will write my decision in the issue (implement, investigate, de
 ## AI assistance
 
 I drafted this research with Claude (Anthropic). I verified the facts against the original employer pages and noted where a source was secondary.
+
+
+## VitePress documentation
+
+Source: `docs/index.md` and `docs/review.md`. Configuration: `docs/.vitepress/config.mts`.
+
+- Install: `npm install`
+- Develop: `npm run docs:dev`
+- Build: `npm run docs:build`
+- Preview: `npm run docs:preview`
+
+The `Publish VitePress documentation` workflow builds and deploys on main-branch pushes. GitHub Pages target: https://vvm3-it.github.io/is117-career-research/ . Check the workflow's result before treating publication as verified. The separate chatgpt.site copy is not automatically synchronized by this workflow.

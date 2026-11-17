@@ -1,8 +1,16 @@
 ---
-title: "Career Research: AI Engineer vs. Forward Deployed Engineer"
+title: "Career Research & Portfolio Plan"
 ---
 
-# Career Research: AI Engineer vs. Forward Deployed Engineer
+# Career Research & Portfolio Plan
+
+**Varnit Monga · IS117 · Evolving documentation record**
+
+[Research](#research-question) · [Portfolio Plan](#_2-plan-portfolio) · [Review & checks](./review.md)
+
+::: info Record status
+The research and Plan share this existing repository. Portfolio implementation and peer retries remain open where indicated below. Résumé content remains private; only its planned destinations are recorded.
+:::
 
 *Last checked: November 11, 2026. Public page. My personal reflection and eligibility details are kept privately in Canvas.*
 
