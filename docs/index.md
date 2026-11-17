@@ -95,7 +95,7 @@ I used Claude (Anthropic) to search for postings and draft this page. I opened t
 
 **Checkpoint:** Introduce Nov 10, work and review Nov 12, submit Nov 17 at 8:30 a.m. Eastern (2026).
 
-**Reader and goal.** My first reader is an internship recruiter looking for evidence that an NJIT Enterprise AI student can build working software and explain their contribution. A technical reviewer should be able to follow that evidence into the code, documentation, or a repeatable demo. The research above points to documenting user problems, showing concrete project work, and testing the proposed JavaScript AI helper. The Mastercard evidence comes from the secondary copy identified above.
+**Persona hypothesis (not an interview or observed recruiter behavior).** My first reader is an internship recruiter looking for evidence that an NJIT Enterprise AI student can build working software and explain their contribution. A technical reviewer should be able to follow that evidence into the code, documentation, or a repeatable demo. The research above points to documenting user problems, showing concrete project work, and testing the proposed JavaScript AI helper. The Mastercard evidence comes from the secondary copy identified above.
 
 | Approach | Page and destination choices | Tradeoff |
 |---|---|---|
@@ -105,6 +105,19 @@ I used Claude (Anthropic) to search for postings and draft this page. I opened t
 **Decision:** Plan A. Lead with evidence and keep résumé access in the header. Use the same content and claims in both layouts so a peer can compare navigation. Ask a peer to find the résumé and a project's code in each layout without hints and record the first clicks and any wrong turns.
 
 **Brand and visual choices.** Use my name, my Enterprise AI focus, and a calm, direct voice across the site. Proposed visual direction: a restrained palette, readable headings, consistent spacing, and a single accent for links and focus. Carry over the Quiet Reps brand work as an example of consistent hierarchy and evidence-led copy. Its product identity belongs inside its case study. Use actual project screenshots with captions, label demo behavior and work in progress, credit teammates, and attach proof to claims. Use descriptive actions such as “View T-shirt repository” and “Read résumé.”
+
+### Technology and scope decision
+
+| Option | Fit and tradeoff |
+|---|---|
+| HTML, CSS, and JavaScript | Proposed starting point for the portfolio: simple pages, direct links, responsive layout, and small interactions. Fits the research goal of practicing JavaScript and keeps changes reviewable. |
+| React with a server-backed helper | Useful if the helper needs shared application state or protected model access, but adds build, deployment, and evaluation work before the basic portfolio is useful. |
+
+Start with HTML/CSS/JavaScript for the core pages. Keep the AI helper as a separately labeled planned experiment; it is not a prerequisite for opening repositories, profiles, or the résumé. If implemented, model credentials belong on a server, and the helper must pass the documented evaluation before being described as verified.
+
+**Proposed page map:** Home → three project case studies (T-shirt, group business, portfolio); Résumé → readable HTML and PDF; header → GitHub and LinkedIn. The portfolio case study links back to this same repository and its research/Plan record. Both layout options above include these destinations.
+
+**Proposed visual tokens:** off-white background (#FAFAF9), dark text (#18181B), blue links (#1D4ED8), a system sans-serif font, 16 px minimum body text, and consistent heading levels. These make the existing restrained direction concrete; contrast, keyboard focus, and phone readability still need implementation checks. Avoid invented metrics, interviews, endorsements, or completed-work claims. Identify AI assistance and each teammate's actual contribution.
 
 ### Essential features and observable checks
 
@@ -122,10 +135,10 @@ I used Claude (Anthropic) to search for postings and draft this page. I opened t
 | Personal GitHub | [vvm3-IT](https://github.com/vvm3-IT) |
 | LinkedIn | Confirm my exact public profile URL before adding it. |
 | Individual T-shirt repository | [plain-white-tee](https://github.com/vvm3-IT/plain-white-tee) |
-| Group business repository | Add the confirmed shared repository URL and every member's name and GitHub username. |
-| Individual portfolio repository | Confirm my portfolio repository URL. The career research repository holds this documentation record. |
+| Group business repository | [campus-marketplace](https://github.com/vvm3-IT/campus-marketplace). Known members: Varnit Monga (@vvm3-IT), Chase Carty (@chaseac-cpu), and @Jovandon9 (full name still needed). Confirm the complete roster before publication of the case study. |
+| Individual portfolio repository | Continue the individual portfolio work in [is117-career-research](https://github.com/vvm3-IT/is117-career-research), as directed on Nov 17. This same repository retains the research and evolving Plan record. |
 | Résumé | Plan a site-local résumé page and downloadable PDF. Add verified content and check both published destinations. |
-| Published documentation | [Career research and portfolio planning record](https://vvm3-it.github.io/is117-career-research/) |
+| Published documentation | [Existing published documentation](https://is117-career-research.smoothpopcorn.chatgpt.site/) · [current source record](https://github.com/vvm3-IT/is117-career-research/blob/main/docs/index.md). Source and hosted copies must be checked separately; this commit does not prove that the hosted copy has updated. |
 | Deployed portfolio | Add the live URL when available and repeat the checks on that URL. |
 
 ### Feedback, changes, and open items
@@ -136,3 +149,29 @@ I used Claude (Anthropic) to search for postings and draft this page. I opened t
 - For each incoming Plan issue, review it with AI, then record my decision and reason in the issue. For an accepted change, reference the issue in the documentation commit or PR, link it in the issue, describe my verification, and ask the reviewer to retry before closing. For deferred or investigated items, record a next step. Explain declined suggestions in the issue.
 - **Verification status:** The research-to-Plan mapping and GitHub account and T-shirt repo destinations were checked against the existing research and GitHub records. Site walkthroughs, peer retest, and the helper evaluation are pending.
 - **AI assistance:** ChatGPT drafted the comparison, stories and checks from the existing career research and checked the listed research issue references against GitHub. I need to confirm the proposed visual direction, missing destinations, team credits, and the checks before submitting.
+
+
+### Review 1 audit and next steps — November 17, 2026
+
+| Feedback | Plan decision and existing change | Evidence still needed |
+|---|---|---|
+| [#4: measurable AI evaluation](https://github.com/vvm3-IT/is117-career-research/issues/4) | Implement in the plan: retain the 8 supported / 2 unsupported question protocol above and S4. This tests factual grounding and fallback behavior. | GitHub currently shows the issue closed with no comments. An author decision, linked change, verification comment, and actual reviewer retry are not recorded there. |
+| [#5: trace relevant source evidence](https://github.com/vvm3-IT/is117-career-research/issues/5) | Implement in the plan: retain the reviewer path from S1's LLM workflows to the helper and its evaluation, rather than using graduation timing to justify the feature. | GitHub currently shows the issue closed with no comments. An author decision, linked change, verification comment, and actual reviewer retry are not recorded there. |
+
+These are received peer suggestions, not merely review requests. Their closed state alone does not demonstrate the required review cycle. Next step: record the decisions and linked changes in each issue and obtain a real reviewer retry; if unfinished, reopen and retain a next step. No reviewer retry or new message is claimed by this update.
+
+**Observed on Nov 17:** the repository source has two layout options, four stories, essential features and planned checks; issues #4 and #5 and their empty comment lists were read through GitHub; account repository search confirms the T-shirt and campus-marketplace repositories exist. This is source inspection, not a signed-out browser test. Earlier employer-check dates remain historical; job availability was not reverified in this Plan update.
+
+**Still pending:** exact LinkedIn URL; @Jovandon9's full name and complete team roster; résumé content and PDF; deployed portfolio; phone/keyboard walkthroughs; Plan peer review and retry; helper implementation and evaluation. All observable checks in the stories are planned until results are logged.
+
+### Canvas submission draft
+
+- Repository: https://github.com/vvm3-IT/is117-career-research
+- Current evolving record: https://github.com/vvm3-IT/is117-career-research/blob/main/docs/index.md#2-plan--portfolio
+- Existing published documentation: https://is117-career-research.smoothpopcorn.chatgpt.site/
+- Deployed portfolio: not yet recorded.
+- Received feedback: [#4](https://github.com/vvm3-IT/is117-career-research/issues/4) and [#5](https://github.com/vvm3-IT/is117-career-research/issues/5); response and retry evidence remain incomplete.
+- Change note: continued the same repository; made the persona assumption explicit; compared technologies; clarified page destinations, scope, visual tokens, and review evidence gaps.
+- Open-item note: complete the missing professional destinations and reviewer evidence listed above. Verify that the published documentation matches the source before submitting its URL.
+
+**AI assistance for this update:** ChatGPT inspected the current repository and both issues, then revised the existing Plan. The persona, navigation, technology choice, and visual tokens are proposals for the author's review. No interview, browser test, reviewer retry, or helper result was fabricated.
