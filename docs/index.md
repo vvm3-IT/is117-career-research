@@ -137,7 +137,7 @@ Start with HTML/CSS/JavaScript for the core pages. Keep the AI helper as a separ
 | Individual T-shirt repository | [plain-white-tee](https://github.com/vvm3-IT/plain-white-tee) |
 | Group business repository | [campus-marketplace](https://github.com/vvm3-IT/campus-marketplace). Known members: Varnit Monga (@vvm3-IT), Chase Carty (@chaseac-cpu), and @Jovandon9 (full name still needed). Confirm the complete roster before publication of the case study. |
 | Individual portfolio repository | Continue the individual portfolio work in [is117-career-research](https://github.com/vvm3-IT/is117-career-research), as directed on Nov 17. This same repository retains the research and evolving Plan record. |
-| Résumé | Plan a site-local résumé page and downloadable PDF. Add verified content and check both published destinations. |
+| Résumé | Résumé received Nov 17, 2026. Planned destinations: `/resume/` for readable HTML and `/assets/varnit-monga-resume.pdf` for a downloadable PDF. These paths are planned, not deployed; publication and the S3 checks remain pending. |
 | Published documentation | [Existing published documentation](https://is117-career-research.smoothpopcorn.chatgpt.site/) · [current source record](https://github.com/vvm3-IT/is117-career-research/blob/main/docs/index.md). Source and hosted copies must be checked separately; this commit does not prove that the hosted copy has updated. |
 | Deployed portfolio | Add the live URL when available and repeat the checks on that URL. |
 
@@ -162,7 +162,7 @@ These are received peer suggestions, not merely review requests. Their closed st
 
 **Observed on Nov 17:** the repository source has two layout options, four stories, essential features and planned checks; issues #4 and #5 and their empty comment lists were read through GitHub; account repository search confirms the T-shirt and campus-marketplace repositories exist. This is source inspection, not a signed-out browser test. Earlier employer-check dates remain historical; job availability was not reverified in this Plan update.
 
-**Still pending:** @Jovandon9's full name and complete team roster; résumé content and PDF; deployed portfolio; phone/keyboard walkthroughs; Plan peer review and retry; helper implementation and evaluation. All observable checks in the stories are planned until results are logged.
+**Still pending:** @Jovandon9's full name and complete team roster; résumé HTML/PDF publication and checks; deployed portfolio; phone/keyboard walkthroughs; Plan peer review and retry; helper implementation and evaluation. All observable checks in the stories are planned until results are logged.
 
 ### Canvas submission draft
 
@@ -178,3 +178,6 @@ These are received peer suggestions, not merely review requests. Their closed st
 
 
 **Nov 17 destination update:** Added my supplied LinkedIn URL, https://www.linkedin.com/in/varnit-monga, and removed the missing-URL item. This records the intended destination; the S3 browser and keyboard checks remain pending.
+
+
+**Nov 17 résumé note:** Résumé received. Plan a readable HTML page at `/resume/` and a PDF download at `/assets/varnit-monga-resume.pdf`. No résumé contents or contact details are included in this note. These destinations still require implementation and verification.
